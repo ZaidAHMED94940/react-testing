@@ -10,7 +10,7 @@ function App() {
         setVariable(response.data.value);
       })
       .catch(error => {
-        console.error('There was an error fetching the variable!', error);
+        console.error('There was an error fetching the variable through backend!', error);
       });
   }, []);
 
